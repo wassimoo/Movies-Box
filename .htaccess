@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} !\.(?:css|js|png|jpe?g|ico|svg|ttf|woff|woff2|eot)$ [NC]
+RewriteRule ^(.*)$ app/index.php [NC,L]
+
+
