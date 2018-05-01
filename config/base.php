@@ -64,3 +64,9 @@ require_once APP_PATH . "/models/db_layer/Oracle.php";
  * Database configuration
  */
 require_once CONFIG_PATH . "/database.php";
+
+
+/**
+ * Session handler class
+ */
+require_once BASE_PATH . "/vendor/Alpha/session/session.php";
