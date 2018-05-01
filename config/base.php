@@ -43,7 +43,6 @@ define("SHARED_FOLDER_NAME" , "shared");
  */
 require_once BASE_PATH . "/vendor/autoload.php";
 
-
 /**
  * Alpha Renderer 
  */
@@ -54,3 +53,14 @@ require_once BASE_PATH . "/vendor/Alpha/layout/engine/Renderer.php";
  * Prepare layouts 
  */
 require_once CONFIG_PATH . "/layouts/layouts.php";
+
+/**
+ * Database connection 
+ */
+require_once APP_PATH . "/models/db_layer/Oracle.php";
+
+
+/**
+ * Database configuration
+ */
+require_once CONFIG_PATH . "/database.php";
