@@ -2288,6 +2288,11 @@ Login Page Styles
   margin-bottom: 0;
 }
 
+.login-msg{
+  margin-top: 20px;
+  margin-bottom: 0;
+  color:#eb1436;
+}
 /*------------------------------------------------------
 Signup Page Styles
 ------------------------------------------------------*/

@@ -4,7 +4,7 @@
     <div class="account-wrap">
 
         <a class="site-logo" href="{{domain}}">
-            <img src="public/bigshow/images/template/logo-white.png" alt="Site Logo">
+            <img src="{{domain}}public/bigshow/images/template/logo-white.png" alt="Site Logo">
         </a>
 
         <form class="accountform loginform">
@@ -12,19 +12,20 @@
             <div class="basic-field">
                 <label>Username <br/>
                     <p>
-                        <input type="text" name="username" required>
+                        <input type="text" name="username" id="username" required>
                     </p>
                 </label>
                 <label>Password <br/>
                     <p>
-                        <input type="password" name="password" required>
+                        <input type="password" name="password" id="password" required>
                     </p>
                 </label>
             </div>
-            <label class="stay-login">
+            <label class="stay-login" >
                 <input type="checkbox" name="stay-login"> Stay logged in
             </label>
-            <button type="submit">Login</button>
+            <button type="submit" id="login">Login</button>
+            <p class="login-msg" style="display: hidden"></p>
             <p class="signup-recover">Don't you have an account yet? <a href="signup">Sign up here</a><br/><a href="#">I forgot my password</a></p>
         </form>
     </div>
