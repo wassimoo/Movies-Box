@@ -15,7 +15,7 @@ class Session
     /** instance properties */
     private $lastActivity;
     private $id_valid_till;
-    private $data;
+    public $data;
 
     /**
      * @param int $timeOut session maximum lifetime in seconds
