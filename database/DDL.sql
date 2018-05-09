@@ -1,7 +1,7 @@
-CREATE TABLE MOVIESBOX."user"(
+CREATE TABLE MOVIESBOX.user_(
   username  VARCHAR2(25) primary key,
   password  VARCHAR2(250)        not null,
-  name      VARCHAR2(30)         not null,
+  first_name      VARCHAR2(30)         not null,
   last_name VARCHAR2(30)         not null,
   email     VARCHAR2(100)        not null
 );
